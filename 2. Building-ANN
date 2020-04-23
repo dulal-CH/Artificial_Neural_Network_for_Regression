@@ -9,3 +9,5 @@ ann.add(tf.keras.layers.Dense(units = 'input numbers', activation = 'relu'))
 
 #Adding Output Layer
 ann.add(tf.keras.layers.Dense(units = 1))
+
+#//If you have problem feel free to contact me @ rdulal71@gmail.com.//
