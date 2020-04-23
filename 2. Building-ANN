@@ -1,0 +1,11 @@
+#Initialize ANN
+ann = tf.keras.models.Sequential()
+
+#Adding input layer and first hidden layer
+ann.add(tf.keras.layers.Dense(units ='input numbers', activation = 'relu'))
+
+#Adding second hidden layer
+ann.add(tf.keras.layers.Dense(units = 'input numbers', activation = 'relu'))
+
+#Adding Output Layer
+ann.add(tf.keras.layers.Dense(units = 1))
