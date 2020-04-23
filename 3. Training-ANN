@@ -9,3 +9,6 @@ ann.fit(X_train,y_train, batch_size = 32, epochs = 'expected number')
 y_pred = ann.predict(X_test)
 np.set_printoptions(precision=2)
 print(np.concatenate((y_pred.reshape(len(y_pred),1), y_test.reshape(len(y_test),1)), 1))
+
+
+#//If you have problem feel free to contact me @ rdulal71@gmail.com.//
