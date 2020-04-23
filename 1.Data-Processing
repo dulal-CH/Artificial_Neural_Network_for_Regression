@@ -1,3 +1,10 @@
+import numpy as np
+import pandas as pd
+import tensorflow as tf 
+
+#Check the tensorflow version
+tf.__version__
+
 #Import Data Set
 dataset = pd.read_excel("File directory or the File name in excel")
 X = dataset.iloc[:, :-1].values
