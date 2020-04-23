@@ -1,0 +1,12 @@
+#Import Data Set
+dataset = pd.read_excel("File directory or the File name in excel")
+X = dataset.iloc[:, :-1].values
+y = dataset.iloc[:, -1].values
+
+#Print the Data Set
+print(X)
+print(y)
+
+#Spliting the dataset into train set and test set
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
